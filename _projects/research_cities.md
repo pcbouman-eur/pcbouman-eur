@@ -1,0 +1,34 @@
+---
+layout: page
+title: Evolution of Road Networks
+description: Simulating and understanding the topology of road networks
+img: assets/img/research_cities.png
+importance: 1
+category: research
+---
+
+This project is joint work with [Claire Lagesse](https://thema.univ-fcomte.fr/page_personnelle/userprofile/clagesse),
+[Hanae El Gouj](https://thema.univ-fcomte.fr/page_personnelle/hanae), [Liubov Tupikina](https://sites.google.com/view/liubovkmatematike/)
+and Lars Paesler. Marie-Sophie Graftiaux and Shuo Ye have contributed in the past.
+
+During the [2020 Winter Workshop on Complex Systems](https://wwcs2020.github.io/), I joined a team with Claire Lagesse and Liubov Tupikina to work on 
+a multidisciplinary the evolution of road networks inspired by Claire's work on the [COVADEO project](https://covadeo.univ-fcomte.fr/about). During the
+Winter Workshop on Complex Systems participants are encouraged to work on multi-disciplinary projects, and we felt there are very interesting opportunities
+to explore the intersection between geographical computer science, network science and transportation science. 
+
+We started investigating a simulation procedure  for the growth of a road network, as well as the application of network measures on
+historical time series of road networks. We were joined by Hanae El Gouj who is working on her PhD research with Claire.
+Marie-Sophie Graftiaux and Shuo Ye both wrote a thesis were they combined the simulation of city growth with classical transportation
+optimization procedures from an operations research context.
+
+A lot of research in transportation and operations research focuses on a particular road network bound to data provided by a company,
+or specifically curated benchmark datasets developed for the purpose of developing better and faster algorithms.
+However, if we want to understand whether and the topology of the urban environment influences what approaches to passenger transportation
+and last-mile delivery are most suitable, both approaches are not sufficient.
+My vision is that having ways to generate different types of road networks creates the opportunity to gain deeper insight into this relation.
+
+## Research Output
+
+* Hanae El Gouj, Paul Bouman, Liubov Tupikina, Claire Lagesse.  [Road network characterization to understand city evolution](https://hal.science/hal-03439002/) (*2021, Conference Abstract*)
+* Marie-Sophie Graftiaux. [The Impact of Structure and Growth Parameters on Street Networks Efficiency](https://thesis.eur.nl/pub/56940) (*2021, MSc thesis supervised by me*)
+* Shuo Ye. Urban Morphology and Transport: An analysis on geometric measures and performance of Vehicle Routing Problems. (*2021, MSc thesis supervised by me*)

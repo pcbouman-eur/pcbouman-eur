@@ -2,18 +2,23 @@
 layout: page
 permalink: /supervision/
 title: supervision
-description: An overview of the thesis students I have supervised
+description: An overview of the thesis students I have supervised.
 nav: true
 ---
+
+## PhD Supervision
+
+* (2020-now) I am the daily supervisor of Mette Wagenvoort [(project page)](/projects/phd_mette)
+* (2017-2022) I was the daily supervisor of Rolf van Lieshout [(project page)](/projects/phd_rolf)
 
 ## Master Thesis Supervision
 
 This is a list of students who *completed* their Master Thesis under my supervision within the [Master Program in Econometrics and Management Science](https://www.eur.nl/en/master/econometrics). I have added the year in which the student has defended the thesis, as well as a link to the thesis on Erasmus University's thesis hub if available. Theses I co-read have been omitted.
 
-### Operation Research and Quantitative Logistics 
+### Operations Research and Quantitative Logistics 
 
 * Marieke van Doorn (2022) - Integrating the Parcel and Mail Network (*internship at PostNL*)
-* Veerle Willemse (2022) - Optimizing the Battery Swap Strategy for e-Cargo Bicycles (*intership at Districon and Cargoroo*)
+* Veerle Willemse (2022) - Optimizing the Battery Swap Strategy for e-Cargo Bicycles (*internship at Districon and Cargoroo*)
 * Yu Fee Chan (2022) - [Traffic Control for Crossing Automated Guided Vehicles on Container Terminals](https://thesis.eur.nl/pub/62072) (*internship at TBA*)
 * Fleur van den Berg (2021) - Production Scheduling Optimization at MSD Animal Health (*internship at MSD Animal Health*)
 * Sean Gilbert (2021) - [The Effect of Alternative Battery Management Strategies for the Dynamic Dial-A-Ride Problem using an Electric, Autonomous Vehicle Fleet](https://thesis.eur.nl/pub/56877)
@@ -42,37 +47,7 @@ This is a list of students who *completed* their Master Thesis under my supervis
 * Fenna ten Haaf (2021) - [Multimodal Prediction of Glaucoma Severity with Convulutional Neural Networks](https://thesis.eur.nl/pub/60887) (*internship at the Biomedical Imaging Group Rotterdam of the Erasmus Medical Center*)
 * Evita Hoogeveen (2021) - The Real-Life Application of Deep Reinforcement Learning to the Hybrid Flow-Shop Scheduling Problem (*internship at Pipple*)
 * Willem Houck (2021) - Data Scarcity in image segmentation (*internship at Sobolt*)
-* Niels Janssen (2021) - Constraining non-parametric models to obtain media effect curves that adhere to the diminishing returns principle (*internship at nielsen*)
+* Niels Janssen (2021) - Constraining non-parametric models to obtain media effect curves that adhere to the diminishing returns principle (*internship at Nielsen*)
 * Luuk Jonkergouw (2021) - [Predicting prices of newly built houses using various machine learning methods](https://thesis.eur.nl/pub/60871) (*internship at Veneficus*)
 * Lennert Jansen (2020) - [On Algorithmic Fairness and Bias Mitigation in Recidivism Prediction - An econometric view on observed tradeoffs between conflicting definitions of fairness, and the applicability of post-processing methods for bias correction of criminal sentencing algorithms](https://thesis.eur.nl/pub/51867) (*internship at IBM*)
 * Kim de Groot (2019) - [Exploring Consumer Preferences for Subscription Packages in Public Transport Using Smart Card Data](https://thesis.eur.nl/pub/50603) (*internship at Lynxx*)
-
-## Workshops and Tutorials
-
-I designed and gave a workshop on terminal skills for cloud computing organized by the student association FAECTOR. The [workshop materials](https://pcbouman-eur.github.io/workshop-getting-started-cloud/) are publicly available.
-
-I gave a short tutorial on mathematical optimization during the Winter Workshop on Complex Systems 2022. The [materials of the tutorial](https://github.com/pcbouman-eur/wwcs2022-mathprog-tutorial) are publicly available.
-
-For a number of years, I gave a tutorial on using CPLEX with Java to the students of the Quantitative Methods for Logistics Course. The [materials of the tutorial](https://pcbouman-eur.github.io/JavaCplexExample/) are publicly available.
-
-## Courses at Utrecht University
-
-I was a teaching assistant between 2004 and 2011 for various courses at the [Department of Information and Computing Sciences of Utrecht University](https://www.uu.nl/en/organisation/department-of-information-and-computing-sciences).
-These courses include:
-
-* Imperative programming (2 times)
-* Computer architecture and networks (3 times)
-* Databases
-* Graphics
-* Search algorithms (4 times)
-* Data structures
-* Mathematical techniques for computing science (2 times)
-* Logic & Set Theory (3 times)
-* Expert Systems (2 times)
-* Functional programming
-* Internet Programming (2 times)
-* Distributed Programming
-* Strategic Management and ICT
-
-For the Strategic Management and ICT course, I developed software used to play an immersive classroom business simulation game.
-
