@@ -16,7 +16,6 @@
 # this program. If not, see <https://www.gnu.org/licenses/>. 
 
 import requests
-import json
 import re
 import argparse
 import pathlib
@@ -72,7 +71,8 @@ def pub_key(pub):
 
 def generate_bibtex(publications):
    sorted_pubs = sorted(publications, key=pub_key, reverse=True)
-   bibtex_citations = [pub['citation']['citation-value'].strip() for pub in sorted_pubs]
+   bibtex_citations = [pub['citation']['citation-value'].strip() for pub in sorted_pubs if pub['citation']]
+   print(f'Found {len(bibtex_citations)} citations for the bibliography')
    return '\n\n'.join(bibtex_citations)
 
 
