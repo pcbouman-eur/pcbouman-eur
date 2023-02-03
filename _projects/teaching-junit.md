@@ -7,7 +7,13 @@ importance: 1
 category: teaching
 ---
 
-This is a programming project. The code can be found on [github](https://github.com/pcbouman-eur/student-test-tools).
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/teaching_cgjunit5.png" alt="The logos of Codegrade and JUnit 5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+This project is about educational software development. The code can be found on [github](https://github.com/pcbouman-eur/student-test-tools).
 
 For my teaching in the course FEB22012X Programming, I rely heavily on the
 [Codegrade](https://www.codegrade.com/) application to provide automated
