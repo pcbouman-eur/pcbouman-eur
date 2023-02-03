@@ -7,7 +7,19 @@ importance: 2
 category: phd
 ---
 
-Together with Dennis Huisman and Marjan van den Akker, I was the daily supervisor of Rolf van Lieshout, who [graduated cum laude on Friday the 13th of May 2022](https://www.erim.eur.nl/research/news/detail/5455-phd-defence-rolf-van-lieshout/). His thesis [Integration, Decentralization and Self-Organization: Towards Better Public Transport](https://pure.eur.nl/en/publications/integration-decentralization-and-self-organization-towards-better) received an honourable mention in the prestigious [TSL Dissertation Award competition](https://www.eur.nl/en/ese/news/alumnus-rolf-van-lieshout-receives-honourable-mention-tsl-dissertation-award-competition). Rolf is currently working as an [assistant professor at the Eindhoven University of Technology](https://www.tue.nl/en/research/researchers/rolf-van-lieshout/).
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phd_rolf.jpg" title="Source: the front cover of Rolf's PhD thesis" alt="Trains and railroad tracks in a knot. From the front cover of Rolf's PhD thesis" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Together with Dennis Huisman and Marjan van den Akker, I was the daily supervisor of Rolf van Lieshout between 2017 and 2022.
+
+Rolf [graduated cum laude on Friday the 13th of May 2022](https://www.erim.eur.nl/research/news/detail/5455-phd-defence-rolf-van-lieshout/).
+
+His thesis [Integration, Decentralization and Self-Organization: Towards Better Public Transport](https://pure.eur.nl/en/publications/integration-decentralization-and-self-organization-towards-better) received an honourable mention in the prestigious [TSL Dissertation Award competition](https://www.eur.nl/en/ese/news/alumnus-rolf-van-lieshout-receives-honourable-mention-tsl-dissertation-award-competition).
+
+Rolf is currently working as an [assistant professor at the Eindhoven University of Technology](https://www.tue.nl/en/research/researchers/rolf-van-lieshout/).
 
 ## Thesis Abstract
 

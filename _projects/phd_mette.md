@@ -7,6 +7,12 @@ importance: 1
 category: phd
 ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/phd_mette.png" title="Diagram depicting the Ship-to-Shore problem. Source: diagram created by Mette Wagenvoort" alt="A diagram explaining the Ship-to-Shore problem by showing military ships on the sea and units and military equipment on land" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 Together with Kerry Malone and Martijn van Ee I am the daily supervisor of [Mette Wagenvoort](https://www.erim.eur.nl/people/mette-wagenvoort/). She is working on the project *Optimal planning of dispersed operations in urban coastal environments*. 
 
 This is a joint project with TNO and The Netherlands Defence Academy.
@@ -28,6 +34,7 @@ This is a joint project with TNO and The Netherlands Defence Academy.
 > phase, however we will consider constraints that are not covered in these methods. Dispersed
 > land operations has, to the authors' knowledge, not been studied quantitatively yet. Studying
 > this problem is of interest to give insight in the feasibility of using this type of land operations.
+
 
 ## Research Output
 

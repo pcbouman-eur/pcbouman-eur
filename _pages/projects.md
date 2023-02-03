@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: Various projects I work on or have worked on
 nav: true
-display_categories: [phd, research, teaching]
+display_categories: [phd, research, teaching, impact]
 horizontal: false
 ---
 
