@@ -1,17 +1,13 @@
 ---
-layout: page
+layout: project
 title:  online transfers
 description: Pickup and delivery with online transfers
 img: assets/img/research_pdpot.png
+img_title: A prototype POD developed by NEXT future mobility
+img_alt: A prototype POD developed by NEXT future mobility
 importance: 1
 category: research
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research_pdpot.png" title="A prototype POD developed by NEXT future mobility" alt="A prototype POD developed by NEXT future mobility" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 This project is joint work with [Gizem (Özbaygın) Tiniç](https://sites.google.com/view/gizemozbaygin),
 [Luuk Veelenturf](https://www.rsm.nl/people/luuk-veelenturf) and

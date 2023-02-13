@@ -1,18 +1,13 @@
 ---
-layout: page
+layout: project
 title: Spread out to school
 description: Smart division of school groups over timeslots
 img: assets/img/impact_spreadschool.jpg
+img_alt: A school child wearing a face mask
+img_title: "Source: Photo by Max Fischer from Pexels"
 importance: 1
 category: impact
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/impact_spreadschool.jpg" title="Source: Photo by Max Fischer from Pexels" alt="A school child wearing a face mask" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 
 This project is joint work with [Twan Dollevoet](https://www.erim.eur.nl/people/twan-dollevoet/),
 [Remy Spliet](https://www.erim.eur.nl/people/remy-spliet/)

@@ -1,17 +1,13 @@
 ---
-layout: page
+layout: project
 title: PhD Rolf van Lieshout
 description: From 2017-2022 I was the daily supervisor of Rolf van Lieshout.
 img: assets/img/phd_rolf.jpg
+img_title: "Source: the front cover of Rolf's PhD thesis"
+img_alt: Trains and railroad tracks in a knot. From the front cover of Rolf's PhD thesis
 importance: 2
 category: phd
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/phd_rolf.jpg" title="Source: the front cover of Rolf's PhD thesis" alt="Trains and railroad tracks in a knot. From the front cover of Rolf's PhD thesis" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 Together with Dennis Huisman and Marjan van den Akker, I was the daily supervisor of Rolf van Lieshout between 2017 and 2022.
 

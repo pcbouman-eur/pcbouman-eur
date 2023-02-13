@@ -1,17 +1,13 @@
 ---
-layout: page
+layout: project
 title: Grade Handler
 description: Browser based grade handling
 img: assets/img/teaching_grade-handler.jpg
+img_title: "Source: Photo by Andy Barbour from Pexels"
+img_alt: A teacher writing an A+ on an exam paper
 importance: 1
 category: teaching
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/teaching_grade-handler.jpg" title="Source: Photo by Andy Barbour from Pexels" alt="A teacher writing an A+ on an exam paper" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 This project aim to make combining and preparing grade lists easier for teachers at **Erasmus School of Economics**,
 so error-prone `VLOOKUP`/`INDEX/MATCH` types of operations can be avoided, while providing a number of quality-of-life

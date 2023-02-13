@@ -1,17 +1,12 @@
 ---
-layout: page
+layout: project
 title: Student Testing Tools
 description: Better automated feedback for student using JUnit5 plugins
 img: assets/img/teaching_cgjunit5.png
+img_alt: The logos of Codegrade and JUnit 5
 importance: 1
 category: teaching
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/teaching_cgjunit5.png" alt="The logos of Codegrade and JUnit 5" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 This project is about educational software development. The code can be found on [github](https://github.com/pcbouman-eur/student-test-tools).
 

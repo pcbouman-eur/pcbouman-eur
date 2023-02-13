@@ -1,17 +1,13 @@
 ---
-layout: page
+layout: project
 title: ComPuTr
 description: Complexity in Public Transport, in which I wrote my PhD Thesis
 img: assets/img/phd_computr.png
+img_title: "Source: the front cover of my PhD thesis"
+img_alt: A crowded train full of people, and an empty train delivered from the sky with a nice red ribbon
 importance: 3
 category: phd
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/phd_computr.png" title="Source: the front cover of my PhD thesis" alt="A crowded train full of people, and an empty train delivered from the sky with a nice red ribbon" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 I conducted my PhD within the NWO funded project *Complexity in Public Transport (ComPuTr)*. 
 

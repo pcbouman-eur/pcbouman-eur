@@ -1,17 +1,12 @@
 ---
-layout: page
+layout: project
 title:  TSP with Drone
 description: Routing of a paired truck and drone
 img: assets/img/research_tdp-d.png
+img_alt: A diagram when a truck drives from the depot to four nodes, and a drone flies from the truck to two other nodes
 importance: 1
 category: research
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research_tdp-d.png" alt="A diagram when a truck drives from the depot to four nodes, and a drone flies from the truck to two other nodes" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 This project is joint work with [Niels Agatz](https://www.rsm.nl/people/niels-agatz/) and
 [Marie Schmidt](https://www.informatik.uni-wuerzburg.de/en/algo/team/schmidt-marie/).

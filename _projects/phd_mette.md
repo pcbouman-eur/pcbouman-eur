@@ -1,17 +1,13 @@
 ---
-layout: page
+layout: project
 title: PhD Mette Wagenvoort
 description: Since 2020 I am the daily supervisor of Mette Wagenvoort.
 img: assets/img/phd_mette.png
+img_title: "Diagram depicting the Ship-to-Shore problem. Source: diagram created by Mette Wagenvoort"
+img_alt: A diagram explaining the Ship-to-Shore problem by showing military ships on the sea and units and military equipment on land
 importance: 1
 category: phd
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/phd_mette.png" title="Diagram depicting the Ship-to-Shore problem. Source: diagram created by Mette Wagenvoort" alt="A diagram explaining the Ship-to-Shore problem by showing military ships on the sea and units and military equipment on land" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 Together with Kerry Malone and Martijn van Ee I am the daily supervisor of [Mette Wagenvoort](https://www.erim.eur.nl/people/mette-wagenvoort/). She is working on the project *Optimal planning of dispersed operations in urban coastal environments*. 
 
