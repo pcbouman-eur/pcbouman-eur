@@ -1,17 +1,13 @@
 ---
-layout: page
+layout: project
 title: Electoral Systems
 description: Simulation of electoral systems on top of the voter model
 img: assets/img/research_electoral-systems.jpg
+img_title: "Source: Photo by Element5 Digital from Pexels"
+img_alt: A hand putting a ballot in a ballot box
 importance: 3
 category: research
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/research_electoral-systems.jpg" title="Source: Photo by Element5 Digital from Pexels" alt="A hand putting a ballot in a ballot box" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 During the [2020 Winter Workshop on Complex Systems](https://wwcs2020.github.io/), I joined a team with Tomasz Raducha, Mateusz Wiliński, Jarosław Klamut and Roger Cremades
 to work on a multidisciplinary project inspired by Tomasz' prior work with the [Voter model](https://en.wikipedia.org/wiki/Voter_model),
