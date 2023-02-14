@@ -41,6 +41,7 @@ This is a list of students who *completed* their Master Thesis under my supervis
 ### Business Analytics and Quantitative Marketing
 
 * Pawan Rashmi (2022) - Interpretable Unsupervised Anomaly Detection for Drone Behavior (*internship at TNO*)
+* Wander Marijnissen (2022) - Product Region Detection using Faster R-CNN and Transfer Learning for Moonshop Technologies (*internship at CapeAI*)
 * Lieke Klinkenberg (2022) - Optimizing the Customer Solving Process by Means of Reinforcement Learning (*internship at KPN*)
 * Daan Manneke (2022) - Towards Automated Adaptation to Unpredictable Behaviour in Overlay Feedback Control (*internship at ASML*)
 * Nino Foudraine (2021) - Counting urban litter: tracking-by-detection combining YOLOv5 and SORT (*internship at Accenture*)
