@@ -33,3 +33,7 @@ I was co-author of four papers Rolf worked on during his PhD:
 * [A next step in disruption management: combining operations research and complexity science](https://doi.org/10.1007/s12469-021-00261-5) in *Public Transport* (Volume 14, Issue 1, March 2022, Pages 5-26)
 * [A self-organizing policy for vehicle dispatching in public transit systems with multiple lines](https://doi.org/10.1016/j.trb.2021.08.004) in *Transportation Research Part B: Methodological* (Volume 152, October 2021, Pages 46-64)
 * [Vehicle Scheduling Based on a Line Plan](https://doi.org/10.4230/OASIcs.ATMOS.2018.15) in *18th Workshop on Algorithmic Approaches for Transportation  Modelling, Optimization, and Systems (ATMOS 2018)* (Helsinki, Finland, 23-24 August 2018)
+
+## Societal Impact
+
+Rolf's research was featured in the nationwide Dutch newspaper Trouw [(article on EUR.nl with a PDF version)](https://www.eur.nl/en/news/during-big-ns-disruption-deployment-station-managers-could-help) [(article on Trouw.nl, behind a paywall)](https://www.trouw.nl/economie/wat-als-de-ns-nog-zo-n-technische-storing-krijgen-zo-kunnen-sommige-treinen-toch-rijden-volgens-deze-onderzoeker~b359c5cc/). Trouw won the European Newspaper Award in the nationwide category in 2001 and 2012.
