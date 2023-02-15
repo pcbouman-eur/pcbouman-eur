@@ -8,9 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Assistant Professor</p>
-    <p>Office ET-10</p>
-    <p>Econometric Institute, Erasmus University Rotterdam</p>
+    <p>Assistant Professor <br />
+    Office ET-10 <br />
+    Econometric Institute<br />
+    Erasmus University Rotterdam</p>
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
