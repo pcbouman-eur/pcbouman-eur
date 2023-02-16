@@ -64,8 +64,6 @@ ul.author-list li.author-item {
 * Projects
 *****************************************************************************/
 
-// TODO: redefine projects layout.
-
 .projects h2.card-title {
   min-height: 2.5em;
 }
@@ -76,4 +74,12 @@ ul.author-list li.author-item {
 
 .projects h2.category {
   margin-top: 0px;
+}
+
+/*****************************************************************************
+* Memberships
+*****************************************************************************/
+
+ul.memberships li {
+  list-style: none;
 }
