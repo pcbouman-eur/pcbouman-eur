@@ -12,13 +12,29 @@ profile:
     Office ET-10 <br />
     Econometric Institute<br />
     Erasmus University Rotterdam</p>
+memberships:
+  - role: member
+    organization: Erasmus Research Institute of Management (ERIM)
+    href: https://www.erim.eur.nl
+  - role: member
+    organization: Erasmus Center for Optimization in Public Transport (ECOPT)
+    href: https://www.erim.eur.nl/erasmus-center-for-optimization-in-public-transport/
+  - role: member
+    organization: Dutch Network on the Mathematics of Operations Research (LNMB)
+    href: https://www.lnmb.nl
+  - role: member
+    organization: Netherlands Society for Statistics and Operations Research (VVSOR)
+    href: https://www.vvsor.nl/
+  - role: member
+    organization: Institute for Operations Research and the Management Sciences (INFORMS)
+    href: https://www.informs.org/         
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is the professional webpage of Paul Bouman. I am currently employed as an [Assistant Professor at the Erasmus School of Economics](https://www.eur.nl/en/ese/people/paul-bouman). I am a member of the [Erasmus Research Institute of Management (ERIM)](https://www.erim.eur.nl), the [Erasmus Center for Optimization in Public Transport (ECOPT)](https://www.erim.eur.nl/erasmus-center-for-optimization-in-public-transport/people/), the [Dutch Network on the Mathematics of Operations Research (LNMB)](https://www.lnmb.nl), the [Netherlands Society for Statistics and Operations Research (VVSOR)](https://www.vvsor.nl/) and the [Institute for Operations Research and the Management Sciences (INFORMS)](https://www.informs.org/).
+This is the professional webpage of Paul Bouman. I am currently employed as an [Assistant Professor at the Erasmus School of Economics](https://www.eur.nl/en/ese/people/paul-bouman).
 
 From a young age, I have been fascinated by the innovations and possibilities enabled by computers, and I knew early on I wanted to study Computer Science. During my Bachelor's studies at Utrecht University, I did a minor in Artificial Intelligence and worked on software for AIBO robots. During my Master's studies on Applied Computing Sciences I wrote a [thesis on Recoverable Robust optimization](/assets/pdf/msc-thesis.pdf){:target="_blank"}. I did my PhD at Erasmus University Rotterdam within the [Complexity in Public Transport project](/projects/phd_computr) funded by NWO and completed my PhD thesis "[Passengers, Crowding and Complexity](https://repub.eur.nl/pub/100767)" in 2017.
 
