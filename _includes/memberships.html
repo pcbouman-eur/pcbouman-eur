@@ -1,0 +1,17 @@
+          
+          <div class="memberships">
+            <h2>memberships</h2>
+            {% if page.memberships != blank -%} 
+            {%- assign memberships = page.memberships -%} 
+            <ul class="memberships">
+              {% for item in memberships %} 
+                {% if item.href != blank -%}
+                  <li>{{item.role}} of the <a href="{{item.href}}" target="_blank">{{item.organization}}</a></li>
+                {%- else -%} 
+                  <li>{{item.role}} of the {{item.organization}}</li>
+                {%- endif %}
+              {%- endfor %} 
+            </ul>
+          </div>
+          {%- endif %} 
+          </div>
