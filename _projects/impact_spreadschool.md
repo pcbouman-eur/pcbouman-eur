@@ -12,7 +12,8 @@ category: impact
 This project is joint work with [Twan Dollevoet](https://www.erim.eur.nl/people/twan-dollevoet/),
 [Remy Spliet](https://www.erim.eur.nl/people/remy-spliet/)
 and [Wilco van den Heuvel](https://www.erim.eur.nl/people/wilco-van-den-heuvel/)
- and was a nice project where we provided a tool to grade school during the COVID-19 pandemic.
+ and was a nice project where we provided a tool to assist grade school replanning their classes
+ during the COVID-19 pandemic.
 
 During the COVID-19 pandemic, some grade schools decided to split student groups in half in order
 to reduce contact between children. Physical school attendance would then alternate over the
@@ -46,5 +47,5 @@ is also available under an MIT License.
 Our tool was featured in different outlets:
 
 * A [news article](https://www.eur.nl/en/news/spread-out-school-tool-helps-primary-schools-and-parents-corona-proof-lesson-scheme) on the main site of Erasmus University Rotterdam
-* A [news article in Dutch Newspaper Algemeen Dagblad](https://www.ad.nl/rotterdam/praktisch-en-coronaproof-lesrooster-met-slimmigheidje-rotterdamse-econometristen~a60ac96e/), the second largest newspaper in the Netherlands
+* A [news article in Dutch Newspaper Algemeen Dagblad](https://www.ad.nl/rotterdam/praktisch-en-coronaproof-lesrooster-met-slimmigheidje-rotterdamse-econometristen~a60ac96e/), the second largest nationwide newspaper in the Netherlands
 * A [news article on Dutch News Site nu.nl](https://www.nu.nl/rotterdam/6116500/coronaproof-rooster-op-scholen-rotterdam-door-hulp-econometristen.html), a popular free Dutch news site.
