@@ -11,7 +11,7 @@ category: research
 
 This project is joint work with [Claire Lagesse](https://thema.univ-fcomte.fr/page_personnelle/userprofile/clagesse),
 [Hanae El Gouj](https://thema.univ-fcomte.fr/page_personnelle/hanae), [Liubov Tupikina](https://sites.google.com/view/liubovkmatematike/)
-and Lars Paesler. Marie-Sophie Graftiaux and Shuo Ye have contributed in the past.
+and [Lars Päsler](https://www.linkedin.com/in/lars-paesler/). Marie-Sophie Graftiaux and Shuo Ye have contributed in the past.
 
 During the [2020 Winter Workshop on Complex Systems](https://wwcs2020.github.io/), I joined a team with Claire Lagesse and Liubov Tupikina to work on 
 a multidisciplinary project about the evolution of road networks inspired by Claire's work on the [COVADEO project](https://covadeo.univ-fcomte.fr/about). During the
