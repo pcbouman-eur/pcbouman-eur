@@ -105,5 +105,15 @@ can be made by dragging and dropping task bundles in a table format, where the t
 violations of constraints are immediately indicated by the software. There is also an option to run a few steps of
 a greedy heurstics. Hopefully, smarted approaches can be added to the software in the future.
 
+<figure>
+      <img class="img-fluid rounded z-depth-1"
+           src="/assets/img/teaching_taschedule_screenshot1.jpg"
+           alt="A large grid with many cells indicating availability of student assistants and tasks assigned to them"
+      />
+      <figcaption class="caption">Screenshot of a scheduling instance within the scheduling software. The colors indicate
+      the preferences of Student Assistants for particular timeslots. The blue badges are task bundles assigned to the
+      student assistants.</figcaption>
+</figure>
+
 The repository of this software is on [Github](https://github.com/pcbouman-eur/ta-scheduling), but unfortunately it is
 not documented yet.
