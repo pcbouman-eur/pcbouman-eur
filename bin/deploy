@@ -100,7 +100,7 @@ mv _site/* .
 rm -R _site/
 
 # Writing custom hostname to CNAME file
-echo 'www.paulbouman.nl' > CNAME
+echo 'paulbouman.nl' > CNAME
 
 # Push to DEPLOY_BRANCH
 git add -fA
