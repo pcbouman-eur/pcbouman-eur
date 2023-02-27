@@ -40,6 +40,7 @@ This is a list of students who *completed* their Master Thesis under my supervis
 
 ### Business Analytics and Quantitative Marketing
 
+* Job Scheltema (2023) - Wildfire risk modelling in Spain using context-sensitive Deep Learning models (*internship at KPMG*)
 * Pawan Rashmi (2022) - Interpretable Unsupervised Anomaly Detection for Drone Behavior (*internship at TNO*)
 * Wander Marijnissen (2022) - Product Region Detection using Faster R-CNN and Transfer Learning for Moonshop Technologies (*internship at CapeAI*)
 * Lieke Klinkenberg (2022) - Optimizing the Customer Solving Process by Means of Reinforcement Learning (*internship at KPN*)
