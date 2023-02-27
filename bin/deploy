@@ -94,13 +94,13 @@ git checkout -b $DEPLOY_BRANCH
 # Build site
 bundle exec jekyll build
 
-# Writing CNAME file with custom domain
-echo 'www.paulbouman.nl' > ./build/CNAME
-
 # Delete and move files
 find . -maxdepth 1 ! -name '_site' ! -name '.git' ! -name 'CNAME' ! -name '.gitignore' -exec rm -rf {} \;
 mv _site/* .
 rm -R _site/
+
+# Writing custom hostname to CNAME file
+echo 'www.paulbouman.nl' > CNAME
 
 # Push to DEPLOY_BRANCH
 git add -fA
