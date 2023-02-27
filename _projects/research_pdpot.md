@@ -1,6 +1,6 @@
 ---
 layout: project
-title:  online transfers
+title:  Online transfers
 description: Pickup and delivery with online transfers
 img: assets/img/research_pdpot.png
 img_title: A prototype POD developed by NEXT future mobility
