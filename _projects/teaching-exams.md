@@ -2,7 +2,7 @@
 layout: project
 title: IT Examination Software
 description: Performing remote examination for IT-related courses
-img: assets/img/teaching_exams.png
+img: assets/img/teaching_exams.jpg
 img_title: Photo by RODNAE Productions on Pexels
 img_alt: A teacher supervising students during an exam
 importance: 2
