@@ -1,7 +1,7 @@
 ---
 layout: project
-title: Student Testing Tools
-description: Better automated feedback for student using JUnit5 plugins
+title: Student testing tools
+description: Better automated feedback for students using JUnit5 plugins
 img: assets/img/teaching_cgjunit5.png
 img_alt: The logos of Codegrade and JUnit 5
 importance: 1

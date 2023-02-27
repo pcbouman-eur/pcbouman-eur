@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Evolution of Road Networks
+title: Evolution of road networks
 description: Simulating and understanding the topology of road networks
 img: assets/img/research_cities.png
 img_title: "Source: a diagram from the MSc thesis of Marie-Sophie Graftiaux"
