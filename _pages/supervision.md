@@ -17,8 +17,9 @@ This is a list of students who *completed* their Master Thesis under my supervis
 
 ### Operations Research and Quantitative Logistics 
 
-* Marieke van Doorn (2022) - Integrating the Parcel and Mail Network (*internship at PostNL*)
-* Veerle Willemse (2022) - Optimizing the Battery Swap Strategy for e-Cargo Bicycles (*internship at Districon and Cargoroo*)
+* Ninette den Breejen - A Comparison of Local Search Algorithms for the Flexible Job Shop Scheduling Problem for the Production of Greenhouses (*intership at KUBO*)
+* Marieke van Doorn (2022) - [Integrating the Parcel and Mail Network](https://thesis.eur.nl/pub/65813) (*internship at PostNL*)
+* Veerle Willemse (2022) - [Optimizing the Battery Swap Strategy for e-Cargo Bicycles](https://thesis.eur.nl/pub/65795) (*internship at Districon and Cargoroo*)
 * Yu Fee Chan (2022) - [Traffic Control for Crossing Automated Guided Vehicles on Container Terminals](https://thesis.eur.nl/pub/62072) (*internship at TBA*)
 * Fleur van den Berg (2021) - Production Scheduling Optimization at MSD Animal Health (*internship at MSD Animal Health*)
 * Sean Gilbert (2021) - [The Effect of Alternative Battery Management Strategies for the Dynamic Dial-A-Ride Problem using an Electric, Autonomous Vehicle Fleet](https://thesis.eur.nl/pub/56877)
@@ -39,10 +40,9 @@ This is a list of students who *completed* their Master Thesis under my supervis
 * Janneke Linders (2018) - Reducing the travel time for the mechanics of KPN while redesigning work districts (*internship at KPN*)
 
 ### Business Analytics and Quantitative Marketing
-
-* Job Scheltema (2023) - Wildfire risk modelling in Spain using context-sensitive Deep Learning models (*internship at KPMG*)
+* Job Scheltema (2023) - [Wildfire risk modelling in Spain using context-sensitive Deep Learning models](https://thesis.eur.nl/pub/65753) (*internship at KPMG*)
 * Pawan Rashmi (2022) - Interpretable Unsupervised Anomaly Detection for Drone Behavior (*internship at TNO*)
-* Wander Marijnissen (2022) - Product Region Detection using Faster R-CNN and Transfer Learning for Moonshop Technologies (*internship at CapeAI*)
+* Wander Marijnissen (2022) - [Product Region Detection using Faster R-CNN and Transfer Learning for Moonshop Technologies](https://thesis.eur.nl/pub/65819) (*internship at CapeAI*)
 * Lieke Klinkenberg (2022) - Optimizing the Customer Solving Process by Means of Reinforcement Learning (*internship at KPN*)
 * Daan Manneke (2022) - Towards Automated Adaptation to Unpredictable Behaviour in Overlay Feedback Control (*internship at ASML*)
 * Nino Foudraine (2021) - Counting urban litter: tracking-by-detection combining YOLOv5 and SORT (*internship at Accenture*)
