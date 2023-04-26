@@ -17,7 +17,7 @@ This is a list of students who *completed* their Master Thesis under my supervis
 
 ### Operations Research and Quantitative Logistics 
 
-* Ninette den Breejen - A Comparison of Local Search Algorithms for the Flexible Job Shop Scheduling Problem for the Production of Greenhouses (*intership at KUBO*)
+* Ninette den Breejen (2023) - A Comparison of Local Search Algorithms for the Flexible Job Shop Scheduling Problem for the Production of Greenhouses (*intership at KUBO*)
 * Marieke van Doorn (2022) - [Integrating the Parcel and Mail Network](https://thesis.eur.nl/pub/65813) (*internship at PostNL*)
 * Veerle Willemse (2022) - [Optimizing the Battery Swap Strategy for e-Cargo Bicycles](https://thesis.eur.nl/pub/65795) (*internship at Districon and Cargoroo*)
 * Yu Fee Chan (2022) - [Traffic Control for Crossing Automated Guided Vehicles on Container Terminals](https://thesis.eur.nl/pub/62072) (*internship at TBA*)
