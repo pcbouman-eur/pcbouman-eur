@@ -40,6 +40,7 @@ This is a list of students who *completed* their Master Thesis under my supervis
 * Janneke Linders (2018) - Reducing the travel time for the mechanics of KPN while redesigning work districts (*internship at KPN*)
 
 ### Business Analytics and Quantitative Marketing
+* Quirine Schaub (2023) - Using Prod2vec with or without metadata to nudge retailers towards healthier assortment decisions (*intership at Albert Heijn*)
 * Job Scheltema (2023) - [Wildfire risk modelling in Spain using context-sensitive Deep Learning models](https://thesis.eur.nl/pub/65753) (*internship at KPMG*)
 * Pawan Rashmi (2022) - Interpretable Unsupervised Anomaly Detection for Drone Behavior (*internship at TNO*)
 * Wander Marijnissen (2022) - [Product Region Detection using Faster R-CNN and Transfer Learning for Moonshop Technologies](https://thesis.eur.nl/pub/65819) (*internship at CapeAI*)
