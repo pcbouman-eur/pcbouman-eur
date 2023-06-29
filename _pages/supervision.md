@@ -40,7 +40,9 @@ This is a list of students who *completed* their Master Thesis under my supervis
 * Janneke Linders (2018) - Reducing the travel time for the mechanics of KPN while redesigning work districts (*internship at KPN*)
 
 ### Business Analytics and Quantitative Marketing
-* Quirine Schaub (2023) - Using Prod2vec with or without metadata to nudge retailers towards healthier assortment decisions (*intership at Albert Heijn*)
+
+* Dave Warsito (2023) - Evaluating a Semantics-Driven Ingredient Substitution Heuristic for Vegan Diets using a Food Knowledge Graph (*internship at KPMG*)
+* Quirine Schaub (2023) - Using Prod2vec with or without metadata to nudge retailers towards healthier assortment decisions (*internship at Albert Heijn*)
 * Job Scheltema (2023) - [Wildfire risk modelling in Spain using context-sensitive Deep Learning models](https://thesis.eur.nl/pub/65753) (*internship at KPMG*)
 * Pawan Rashmi (2022) - Interpretable Unsupervised Anomaly Detection for Drone Behavior (*internship at TNO*)
 * Wander Marijnissen (2022) - [Product Region Detection using Faster R-CNN and Transfer Learning for Moonshop Technologies](https://thesis.eur.nl/pub/65819) (*internship at CapeAI*)
@@ -54,3 +56,7 @@ This is a list of students who *completed* their Master Thesis under my supervis
 * Luuk Jonkergouw (2021) - [Predicting prices of newly built houses using various machine learning methods](https://thesis.eur.nl/pub/60871) (*internship at Veneficus*)
 * Lennert Jansen (2020) - [On Algorithmic Fairness and Bias Mitigation in Recidivism Prediction - An econometric view on observed tradeoffs between conflicting definitions of fairness, and the applicability of post-processing methods for bias correction of criminal sentencing algorithms](https://thesis.eur.nl/pub/51867) (*internship at IBM*)
 * Kim de Groot (2019) - [Exploring Consumer Preferences for Subscription Packages in Public Transport Using Smart Card Data](https://thesis.eur.nl/pub/50603) (*internship at Lynxx*)
+
+### Quantitative Finance
+
+* Nicolas Wazni (2023) - Algorithmic Trading Strategies: The Added Value of Sentiment
