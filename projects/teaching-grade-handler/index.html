@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://www.paulbouman.nl/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paul Bouman's personal website | Page not found</title>
+    <title>Paul Bouman's personal website | Grade Handler</title>
     <meta name="author" content="Paul  Bouman" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Browser based grade handling" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/%F0%9F%91%A8%E2%80%8D%F0%9F%8E%93"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://www.paulbouman.nl/404.html">
+    <link rel="canonical" href="https://www.paulbouman.nl/projects/teaching-grade-handler/">
     
     <!-- Dark Mode -->
     
@@ -91,12 +91,66 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Grade Handler</h1>
+            <p class="post-description">Browser based grade handling</p>
+            <div class="row">
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/teaching_grade-handler-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/teaching_grade-handler-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/teaching_grade-handler-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/teaching_grade-handler.jpg" alt="A teacher writing an A+ on an exam paper" title="Source: Photo by Andy Barbour from Pexels">
+
+  </picture>
+
+</figure>
+
+              </div>
+            </div>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://www.paulbouman.nl/">here</a>.</p>
+            <p>This project aim to make combining and preparing grade lists easier for teachers at <strong>Erasmus School of Economics</strong>,
+so error-prone <code class="language-plaintext highlighter-rouge">VLOOKUP</code>/<code class="language-plaintext highlighter-rouge">INDEX/MATCH</code> types of operations can be avoided, while providing a number of quality-of-life
+sanity checks out of the box.</p>
+
+<p><strong>Note:</strong> this tool is <strong>not</strong> meant as a general purpose grade handler for teachers at other universities,
+as it makes a hard assumption that student identifiers have the format used at Erasmus University Rotterdam.
+This assumption allows for a smoother user experience, as identifying columns can be detected automatically.
+However, the tool is open source so ideas can be taken/adopted by others if desired.</p>
+
+<p>A <a href="https://pcbouman-eur.github.io/ese-grade-handler/" target="_blank" rel="noopener noreferrer">live version</a> of the tool can be found on Github, as well as the <a href="https://github.com/pcbouman-eur/ese-grade-handler" target="_blank" rel="noopener noreferrer">source code</a>.
+The tool was build as a handy prototype, with the (likely very naive) aim of motivating our school and/or university to make a more professional version of this tool.</p>
+
+<h2 id="background">Background</h2>
+
+<p>Over the course of my teaching at ESE, I had developed a number of scripts that allowed me to combine spreadsheets of exams (either manually created or exported by examination software),
+and the grades of assignments as exported by our Learning Management System (Canvas). Since command line scripts are not the most user friendly things to share, whereas more and more
+fantastic libraries became available to do all kinds of things traditionally reserved for desktop applications purely client-side on the web browser, I started experimenting to see
+if the job done by my scripts could be done in a client-side web application.</p>
+
+<p>It turns out that this is quite possible. The free version of the <a href="https://sheetjs.com/" target="_blank" rel="noopener noreferrer">SheetJS</a> library can be used to extract relevant data out of all kinds of spreadsheets,
+and also to generate new spreadsheets that can be downloaded by the user. The really nice thing is that no data needs to be transmitted to a server to handle the spreadsheet server side,
+but that all reading and writing of spreadsheets can happen inside the browser. However, the free version does come with it’s limitations and is not as powerful as the most popular
+Java or Python libraries for handling spreadsheet files.</p>
+
+<p>I currently use the Pandas inspired <a href="https://github.com/javascriptdata/danfojs" target="_blank" rel="noopener noreferrer">Danfojs</a> to create data frames out the spreadsheet data (although in hindsight I am not sure if this is needed).
+In an ideal version of this tool, I could imagine having a proper database per course. But for now, this works.</p>
+
+<p>The UI is designed using the excellent <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue Framework</a> with the <a href="https://vuetifyjs.com/" target="_blank" rel="noopener noreferrer">Vuetify Component Framework</a>.
+This allows me to create nice looking, reactive user interfaces without too much hassle. What I particularly like about Vue is that you
+can start using it for a small part of a normal HTML page, and slowly progress towards more advanced use in a project for a single page 
+application (which I built here).</p>
+
+<p>Finally, our grade administration introduced a rule that grade changes should be performed with individual word documents per grade change (resulting in a lot of outrage among teachers).
+In an attempt to smoothen out this bureaucratic nightmare, I added a feature that uses <a href="https://docx.js.org/" target="_blank" rel="noopener noreferrer">docx javascript library</a>
+together with the <a href="https://github.com/Stuk/jszip" target="_blank" rel="noopener noreferrer">jszip library</a> that generates a <code class="language-plaintext highlighter-rouge">.zip</code> file containing a word document with a filled-in form for each row in the input spreadsheet,
+again all within the confines of the user’s browser. The signature of the user can be drawn using the <a href="https://github.com/WangShayne/vue-signature" target="_blank" rel="noopener noreferrer">vue-signature component</a> and is
+injected into the generated word files.</p>
+
 
           </article>
 

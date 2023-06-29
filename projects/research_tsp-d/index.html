@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paul Bouman's personal website | articles</title>
+    <title>Paul Bouman's personal website | TSP with Drone</title>
     <meta name="author" content="Paul  Bouman" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="Routing of a paired truck and drone" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/%F0%9F%91%A8%E2%80%8D%F0%9F%8E%93"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://www.paulbouman.nl/blog/">
+    <link rel="canonical" href="https://www.paulbouman.nl/projects/research_tsp-d/">
     
     <!-- Dark Mode -->
     
@@ -88,129 +87,84 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>blog posts I wanted to write here</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">TSP with Drone</h1>
+            <p class="post-description">Routing of a paired truck and drone</p>
+            <div class="row">
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
 
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/research_tdp-d-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/research_tdp-d-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/research_tdp-d-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/research_tdp-d.png" alt="A diagram when a truck drives from the depot to four nodes, and a drone flies from the truck to two other nodes">
 
-  <ul class="post-list">
-    
+  </picture>
 
-    
-    
-    
-    
+</figure>
 
-    <li>
-      <h3>
-        
-        <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+              </div>
+            </div>
+          </header>
 
-          
+          <article>
+            <p>This project is joint work with <a href="https://www.rsm.nl/people/niels-agatz/" target="_blank" rel="noopener noreferrer">Niels Agatz</a> and
+<a href="https://www.informatik.uni-wuerzburg.de/en/algo/team/schmidt-marie/" target="_blank" rel="noopener noreferrer">Marie Schmidt</a>.</p>
 
-          
-    </p>
-    </li>
+<p>On a fateful afternoon when I was still working on my PhD at the Rotterdam School of Management,
+Niels Agatz entered my office and drew an interesting routing problem related to trucks and
+drones on the whiteboard. It turned out he did the same with Marie Schmidt who was as much
+inspired by the problem as I was, and a very interesting project was born.</p>
 
-    
+<p>In the project, we developed one of the earliest papers with an exact approach to solve a
+Traveling Salesman Problem where locations can be visited by either a truck or a drone.
+The drone has to be launched by the truck and has only carrying capacity for one parcel
+before it has to come back to the truck to get a new payload. The drone can also stay
+with the truck while the truck is moving around, and while the drone is out, the truck
+can visit any number of locations. The drone can only meet up or leave the truck at
+customer locations. The goal is to minimize the total time it takes to visit all
+locations, either with the drone or the truck. The tricky part here is that the truck and
+drone have to coordinate when they are together, which may induce additional waiting
+time at locations.</p>
 
-    
-    
-    
-    
+<p>A core idea we developed in our approach is an <em>operation</em>, which defines a starting
+location where the drone and truck are together, an ending location where the drone
+and truck are again together, and any number of intermediate locations of which one
+can be visited by the drone, and the other locations are visited in a particular order by the
+truck. It is assumed that travel times for the drone can be completely unrelated to the travel times
+for the truck, although in our experiments we use a constant ratio for the sake of simplicity.</p>
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+<p>So far, two papers came out based on this work, of which one has received over
+580 and over 200 citation according to Google Scholar in February 2023.</p>
 
-          
+<h2 id="research-output">Research Output</h2>
 
-          
-    </p>
-    </li>
+<ul>
+  <li>
+<a href="https://doi.org/10.1287/trsc.2017.0791" target="_blank" rel="noopener noreferrer">Optimization Approaches for the Traveling Salesman Problem with Drone</a> in <em>Transportation Science</em> (Volume 52, Issue 4, July 2018)</li>
+  <li>
+<a href="https://doi.org/10.1002/net.21864" target="_blank" rel="noopener noreferrer">Dynamic programming approaches for the traveling salesman problem with drone</a> in <em>Networks</em> (Volume 72, Issue 4, December 2018)</li>
+  <li>
+<a href="https://doi.org/10.1287/trsc.2017.0791" target="_blank" rel="noopener noreferrer">Drones-TSP: Traveling Salesman with Drone (Java code) v1.0.0</a>. Java code used in our projects.</li>
+  <li>
+<a href="https://doi.org/10.5281/zenodo.1204676" target="_blank" rel="noopener noreferrer">Instances for the TSP with Drone (and some solutions)</a>. Instances used in our experiments.</li>
+</ul>
 
-    
+          </article>
 
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="articles">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="articles - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="articles - page 3">3</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>

@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paul Bouman's personal website | articles</title>
+    <title>Paul Bouman's personal website | Examination Software</title>
     <meta name="author" content="Paul  Bouman" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="Performing remote examination for IT-related courses" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/%F0%9F%91%A8%E2%80%8D%F0%9F%8E%93"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://www.paulbouman.nl/blog/">
+    <link rel="canonical" href="https://www.paulbouman.nl/projects/teaching-exams/">
     
     <!-- Dark Mode -->
     
@@ -88,129 +87,70 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>blog posts I wanted to write here</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Examination Software</h1>
+            <p class="post-description">Performing remote examination for IT-related courses</p>
+            <div class="row">
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/teaching_exams-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/teaching_exams-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/teaching_exams-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/teaching_exams.jpg" alt="A teacher supervising students during an exam" title="Photo by RODNAE Productions on Pexels">
+
+  </picture>
+
+</figure>
+
+              </div>
+            </div>
+          </header>
+
+          <article>
+            <p>In this project I developed educational software to facilitate online proctored examination of IT-related courses involving programming tools or other software. The particular focus was to be able to provide customized question types to students that typically are not facilitated by regulator examination software. During this project I received a lot of valuable advice from Pleuni de Kock, whose background in educational science and professional experience with digital exams proved crucial in getting the details right needed to provide a smooth experience to the learners.</p>
+
+<h2 id="background">Background</h2>
+
+<p>During the COVID-19 pandemic, the Dutch government imposed severe restrictions on society that also impacted examinations at
+universities. Erasmus University decided to apply online proctoring to deal with this situation. However, this posed a challenge for
+examination of courses where programming education or tools such as Microsoft Excel were needed by students, as the secure environment
+Erasmus University developed for these examinations could not be accessed by students via the internet. This raised the question how we 
+could provide a uniform and consistent examination environment for students in these courses.</p>
+
+<p>With the many capabilities offered by the modern and the fact that students had to use a modern webbrowser to make their exams, the
+idea rose to exploit the flexibility offered by the modern web to provide tailor made learning and examination experiences to the
+students. I developed a frontend using <a href="https://vuejs.org/" target="_blank" rel="noopener noreferrer">Vue.js</a> and <a href="https://vuetifyjs.com/" target="_blank" rel="noopener noreferrer">Vuetify</a> that made it very easy to
+develop custom question types, for example based on the <a href="https://microsoft.github.io/monaco-editor/" target="_blank" rel="noopener noreferrer">Monaco Editor</a> developed by
+Microsoft that also powers Visual Studio Code, or the <a href="https://developers.google.com/blockly" target="_blank" rel="noopener noreferrer">Blockly Library</a> developed by Google that
+provides a visual programming editor in the browser. As each question consists of a JSON-data with a <code class="language-plaintext highlighter-rouge">type</code> attribute indicating which
+UI-component should be used to let the student interact with the question, there is a lot of flexibility to design and develop novel
+types of questions that are not offered out-of-the-box in standardized educational tools, such as the
+<a href="https://www.instructure.com/canvas" target="_blank" rel="noopener noreferrer">Canvas LMS</a> or the <a href="https://www.ans.app" target="_blank" rel="noopener noreferrer">Ans examination software</a>.</p>
+
+<p>During the pandemic, this tool was used for a number of exams. The tool was served from a backend I developed on top of <a href="https://spring.io/" target="_blank" rel="noopener noreferrer">Spring Boot</a> with authentication via an LTI-integration with Canvas.</p>
+
+<h2 id="future-external-questions">Future: External Questions</h2>
+
+<p>Currently I am exploring the possibility to serve parts of the frontend developed during the pandemic without the need of maintaining and operating a backend. The idea is to include all relevant data inside links so that the new question types can be shared from traditional educational tools such as Canvas or Ans without additional depedencies. I have adapted certain question types in this alternative setup in a public Github repository.
+There is a <a href="https://econometricinstitute.github.io/external-question/" target="_blank" rel="noopener noreferrer">live demonstration</a> of this external questions setup of the tool. The <a href="https://github.com/EconometricInstitute/external-question" target="_blank" rel="noopener noreferrer">source code</a> is also visible.</p>
 
 
-  <ul class="post-list">
-    
+          </article>
 
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-        <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="articles">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="articles - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="articles - page 3">3</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>

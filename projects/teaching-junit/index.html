@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paul Bouman's personal website | articles</title>
+    <title>Paul Bouman's personal website | Student testing tools</title>
     <meta name="author" content="Paul  Bouman" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="Better automated feedback for students using JUnit5 plugins" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/%F0%9F%91%A8%E2%80%8D%F0%9F%8E%93"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://www.paulbouman.nl/blog/">
+    <link rel="canonical" href="https://www.paulbouman.nl/projects/teaching-junit/">
     
     <!-- Dark Mode -->
     
@@ -88,129 +87,67 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>blog posts I wanted to write here</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Student testing tools</h1>
+            <p class="post-description">Better automated feedback for students using JUnit5 plugins</p>
+            <div class="row">
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
 
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/teaching_cgjunit5-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/teaching_cgjunit5-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/teaching_cgjunit5-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/teaching_cgjunit5.png" alt="The logos of Codegrade and JUnit 5">
 
-  <ul class="post-list">
-    
+  </picture>
 
-    
-    
-    
-    
+</figure>
 
-    <li>
-      <h3>
-        
-        <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+              </div>
+            </div>
+          </header>
 
-          
+          <article>
+            <p>This project is about educational software development. The code can be found on <a href="https://github.com/pcbouman-eur/student-test-tools" target="_blank" rel="noopener noreferrer">github</a>.</p>
 
-          
-    </p>
-    </li>
+<p>For my teaching in the course FEB22012X Programming, I rely heavily on the
+<a href="https://www.codegrade.com/" target="_blank" rel="noopener noreferrer">Codegrade</a> application to provide automated
+feedback to students. The main advantage of this is that students can
+keep working on their assignment and fix their mistakes. This way, students
+can learn from practice by fixing their mistakes, rather than getting one
+shot feedback at the end of their assignment work.</p>
 
-    
+<p>This requires that the teacher writes software that can check and provide
+feedback for the student’s code. Working with Java, it makes sense to
+make use of the popular tooling that was developed for testing Java programs,
+of which JUnit is a very popular option. However, there are a couple of drawbacks
+working with plain JUnit:</p>
 
-    
-    
-    
-    
+<ul>
+  <li>Assertions that pass successfully are discarded by standard unit testing frameworks. When providing feedback to students, it is valuable and encouraging to provide feedback on things that are correct.</li>
+  <li>Standard runners for JUnit tests may result in very long stacktraces of which only a small part is relevant. It can be helpful for students to only show the interesting part.</li>
+  <li>Standard unit tests stop as soon as an assertion fails - this makes sense as their main purpose is to warn developers something broke. However, for student it may be useful to communicate if more issues can be found with their code. Splitting each assertion up over a separate test method is not always convenient.</li>
+  <li>There is no natural support to define that at least some but not necessarily all test cases should pass. If we want to allow students to choose between different parts of the assignment, this is typically needed.</li>
+  <li>Missing methods or mistakes in student code may result in <em>missing symbol</em> errors when compiling the test code. As a consequence, students will see compiler errors in code written by the teacher. Some will thus assume the mistake is at the side of the teacher, and not at the side of the student.</li>
+</ul>
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+<p>In this project, I have developed some tools that can address these issues. Details on how this is achieved are discussed on <a href="https://github.com/pcbouman-eur/student-test-tools" target="_blank" rel="noopener noreferrer">the github page</a>.</p>
 
-          
+          </article>
 
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="articles">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="articles - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="articles - page 3">3</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>

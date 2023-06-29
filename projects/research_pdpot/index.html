@@ -2,16 +2,16 @@
 <html lang="en">
 
   <!-- Head -->
-  <head><meta http-equiv="refresh" content="3; url=https://www.paulbouman.nl/" />    <!-- Metadata, OpenGraph and Schema.org -->
+  <head>    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paul Bouman's personal website | Page not found</title>
+    <title>Paul Bouman's personal website | Online transfers</title>
     <meta name="author" content="Paul  Bouman" />
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here." />
+    <meta name="description" content="Pickup and delivery with online transfers" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -32,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/%F0%9F%91%A8%E2%80%8D%F0%9F%8E%93"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://www.paulbouman.nl/404.html">
+    <link rel="canonical" href="https://www.paulbouman.nl/projects/research_pdpot/">
     
     <!-- Dark Mode -->
     
@@ -91,12 +91,55 @@
         <div class="post">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Online transfers</h1>
+            <p class="post-description">Pickup and delivery with online transfers</p>
+            <div class="row">
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/research_pdpot-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/research_pdpot-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/research_pdpot-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/research_pdpot.png" alt="A prototype POD developed by NEXT future mobility" title="A prototype POD developed by NEXT future mobility">
+
+  </picture>
+
+</figure>
+
+              </div>
+            </div>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please click <a href="https://www.paulbouman.nl/">here</a>.</p>
+            <p>This project is joint work with <a href="https://sites.google.com/view/gizemozbaygin" target="_blank" rel="noopener noreferrer">Gizem (Özbaygın) Tiniç</a>,
+<a href="https://www.rsm.nl/people/luuk-veelenturf" target="_blank" rel="noopener noreferrer">Luuk Veelenturf</a> and
+<a href="https://www.erim.eur.nl/people/rick-willemsen/" target="_blank" rel="noopener noreferrer">Rick Willemsen</a>.</p>
+
+<p>This research is partly inspired by a novel mobility concept called <em>NEXT Future Transportation</em>. We have developed a MIP-based optimization model that allows us to 
+solve a pick-up and delivery problem where passengers can both transfer en-route when vehicles are platooning, as well as transfer by leaving one vehicle,
+waiting for another vehicle to arrive and then entering the other vehicle.
+We still have to finish writing our paper on the optimization and modelling.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kJlQaCIUHTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+
+<p><br></p>
+
+<h2 id="description">Description</h2>
+
+<p>Recently there is increasing attention in the literature for more flexible and autonomous ways of public transportation.
+Some focus on semi-flexible public transportation. Examples are systems with a mix of conventional taxis and timetabled shuttle busses, limiting the number of transfers in a transit system with a large number of vehicles, and integrating fixed routes with a general pickup and delivery problem.</p>
+
+<p>In this research, we focus on full flexible passenger transportation. This can be considered as a variant or extension of the Dial-a-Ride Problem (DARP). The focus of the DARP is to bring passengers from their origin to their destination (e.g. the classical taxi problem). In later variants of this problem shared door-to-door services were investigated, to see the effect of allowing for multiple passengers (with different origins and destinations) to share the ride. We want to go one step further and look at the effects of allowing for transfers of passengers in such a shared door-to-door service, both <em>online</em> transfers that take place within two driving vehicles that are platooning, as well as by using <em>outside</em> transfers.</p>
+
+<p>The use of transfers in passenger transportation is not new. In public transport, it is one of the aspects that is typically considered when making a line plan. In logistics delivery services, transferring goods between vehicles at cross-docks or hubs is already quite common. In courier type of services we see transfers of passengers. However, these approaches mostly consider transfers at fixed predefined locations. In some of these approaches vehicles need to be synchronized, i.e. at the same location at the same time, to transfer the goods from one delivery vehicle to another, and in other approach this might not be required as temporary storage is allowed so a vehicle can leave goods for another vehicle to pickup later.</p>
+
+<p>In order to investigate the potential of <em>online</em> transfers (i.e. while moving) in shared door-to-door services, many modelling tricks commonly used in the Dial-a-Ride Problem break down. Typically the only information about the road network that is required are distances between pickup and delivery locations, and in extensions of locations where transfers are possible. In case of online transfers, the actual topology of the road network is required, as facilitating an online transfer between two vehicles requires that both vehicles share the same road segment at the same point in time, even though the previous and next pickup and delivery locations are completely distinct. While many models for the Dial-a-Ride Problem focus on the sequence of the pickups and deliveries of the customers, online transfers require an integrated approach that takes the exact routes, timing included, of both passengers and vehicles into account.</p>
+
+<p>In our research, we consider a Mixed Integer Program (MIP) to solve this problem, that can either be solved directly for small instances, or provide the basis for a heuristic in medium sized instances. We also develop a related column generation approach, and perform extensive computational experiments. Finally, we provide a number of analytical insights into the possible advantage of allowing online transfers, but these are omitted from this extended abstract for reasons of brevity.</p>
+
+<p>More information can be read in the <a href="https://tristan2022.org/Papers/TRISTAN_2022_paper_4450.pdf" target="_blank" rel="noopener noreferrer">extended abstract submitted to the TRISTAN 2022 Conference</a></p>
 
           </article>
 

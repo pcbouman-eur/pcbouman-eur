@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Paul Bouman's personal website | articles</title>
+    <title>Paul Bouman's personal website | Spread out to school</title>
     <meta name="author" content="Paul  Bouman" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="Smart division of school groups over timeslots" />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/%F0%9F%91%A8%E2%80%8D%F0%9F%8E%93"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://www.paulbouman.nl/blog/">
+    <link rel="canonical" href="https://www.paulbouman.nl/projects/impact_spreadschool/">
     
     <!-- Dark Mode -->
     
@@ -88,129 +87,85 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>blog posts I wanted to write here</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Spread out to school</h1>
+            <p class="post-description">Smart division of school groups over timeslots</p>
+            <div class="row">
+              <div class="col-sm mt-3 mt-md-0">
+                <figure>
 
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/impact_spreadschool-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/impact_spreadschool-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/impact_spreadschool-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/impact_spreadschool.jpg" alt="A school child wearing a face mask" title="Source: Photo by Max Fischer from Pexels">
 
-  <ul class="post-list">
-    
+  </picture>
 
-    
-    
-    
-    
+</figure>
 
-    <li>
-      <h3>
-        
-        <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+              </div>
+            </div>
+          </header>
 
-          
+          <article>
+            <p>This project is joint work with <a href="https://www.erim.eur.nl/people/twan-dollevoet/" target="_blank" rel="noopener noreferrer">Twan Dollevoet</a>,
+<a href="https://www.erim.eur.nl/people/remy-spliet/" target="_blank" rel="noopener noreferrer">Remy Spliet</a>
+and <a href="https://www.erim.eur.nl/people/wilco-van-den-heuvel/" target="_blank" rel="noopener noreferrer">Wilco van den Heuvel</a>
+ and was a nice project where we provided a tool to assist grade school replanning their classes
+ during the COVID-19 pandemic.</p>
 
-          
-    </p>
-    </li>
+<p>During the COVID-19 pandemic, some grade schools decided to split student groups in half in order
+to reduce contact between children. Physical school attendance would then alternate over the
+days for the two halfs, meaning that every day one half of the children in each groups would
+have to be home schooled. The aim of the tool is to make the division in a smart way, such
+that as much as possible all children of the same family would go to school on the same day.</p>
 
-    
+<p>Underneath our approach was a simple optimization model:
+given a set of \(n\) (already splitted) groups \(C = \{1, \dots, n\}\),
+an overlap matrix \(A \in \mathbb{Z}^{n \times n}\) and a number of timeslots \(k\) (typically 2),
+the goal is to partition \(C\) into \(k\) sets \(P_1, \dots, P_k\) of cardinality between
+\(\lfloor \frac{n}{k} \rfloor\) and \(\lceil \frac{n}{k} \rceil\),
+maximizing the sum of the overlaps within each partition,
+i.e. \(\sum_{s=1}^{k} \sum_{i \in P_s} \sum_{j \in P_s : i &lt; j} A_{ij}\).
+The idea is that the overlap coefficients indicate that a pair of groups have children from the same
+family, and that ideally these groups should come to school in the same timeslot.</p>
 
-    
-    
-    
-    
+<p>We provided a fully client side web-based application (in Dutch) where teachers could enter
+the number of groups, the overlap matrix and the number of timeslots. We then use both
+a heuristic to quickly obtain a good solution, and a full enumeration algorithm to obtain
+the best solution. These algorithms are executed fully inside the web-browser,
+making it possible for schools to use our optimization techniques without having to
+install any software, and without requiring them to share any data.</p>
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta"> 7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+<p>The tool itself can be <a href="https://econometricinstitute.github.io/VerspreidNaarSchool/" target="_blank" rel="noopener noreferrer">accessed via Github Pages</a>
+(the tool is in Dutch). The <a href="https://github.com/EconometricInstitute/VerspreidNaarSchool" target="_blank" rel="noopener noreferrer">source code</a>
+is also available under an MIT License.</p>
 
-          
+<h2 id="societal-impact">Societal Impact</h2>
 
-          
-    </p>
-    </li>
+<p>Our tool was featured in different outlets:</p>
 
-    
+<ul>
+  <li>A <a href="https://www.eur.nl/en/news/spread-out-school-tool-helps-primary-schools-and-parents-corona-proof-lesson-scheme" target="_blank" rel="noopener noreferrer">news article</a> on the main site of Erasmus University Rotterdam</li>
+  <li>A <a href="https://www.ad.nl/rotterdam/praktisch-en-coronaproof-lesrooster-met-slimmigheidje-rotterdamse-econometristen~a60ac96e/" target="_blank" rel="noopener noreferrer">news article in Dutch Newspaper Algemeen Dagblad</a>, the second largest nationwide newspaper in the Netherlands</li>
+  <li>A <a href="https://www.nu.nl/rotterdam/6116500/coronaproof-rooster-op-scholen-rotterdam-door-hulp-econometristen.html" target="_blank" rel="noopener noreferrer">news article on Dutch News Site nu.nl</a>, a popular free Dutch news site.</li>
+</ul>
 
-    
-    
-    
-    
+          </article>
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="articles">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="articles - page 2">2</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="articles - page 3">3</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Paul  Bouman. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 
       </div>
     </footer>
