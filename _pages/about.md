@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>Assistant Professor <br />
+    <p>Associate Professor <br />
     Office ET-10 <br />
     Econometric Institute<br />
     Erasmus University Rotterdam</p>
@@ -35,7 +35,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-This is the professional webpage of Paul Bouman. I am currently employed as an [Assistant Professor at the Erasmus School of Economics](https://www.eur.nl/en/ese/people/paul-bouman).
+This is the professional webpage of Paul Bouman. I am currently employed as an [Associate Professor at the Erasmus School of Economics](https://www.eur.nl/en/ese/people/paul-bouman).
 
 From a young age, I have been fascinated by the innovations and possibilities enabled by computers, and I knew early on I wanted to study Computer Science. During my Bachelor's studies at Utrecht University, I did a minor in Artificial Intelligence and worked on software for AIBO robots. During my Master's studies on Applied Computing Sciences I wrote a [thesis on Recoverable Robust optimization](/assets/pdf/msc-thesis.pdf){:target="_blank"}. I did my PhD at Erasmus University Rotterdam within the [Complexity in Public Transport project](/projects/phd_computr) funded by NWO and completed my PhD thesis "[Passengers, Crowding and Complexity](https://repub.eur.nl/pub/100767)" in 2017.
 
