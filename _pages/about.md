@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   more_info: >
     <p>Associate Professor <br />
-    Office ET-10 <br />
+    Office ET-05 <br />
     Econometric Institute<br />
     Erasmus University Rotterdam</p>
 memberships:
