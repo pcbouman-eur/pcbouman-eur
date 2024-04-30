@@ -69,7 +69,6 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: pcbouman-eur # your GitHub user name
 gitlab_username: # your GitLab user name
-<<<<<<< HEAD
 x_username: # your X handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: paul-bouman # your LinkedIn user name
@@ -77,11 +76,6 @@ telegram_username: # your Telegram user name
 scholar_userid: iaovq3UAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-=======
-twitter_username: # your Twitter handle
-linkedin_username: paul-bouman # your LinkedIn user name
-scholar_userid: iaovq3UAAAAJ # your Google Scholar ID
->>>>>>> fd2d957618da019eeb2bfec836f0208d2560b0e5
 orcid_id: 0000-0003-4893-4083 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -304,7 +298,6 @@ scholar:
   group_by: year
   group_order: descending
 
-<<<<<<< HEAD
 # Display different badges withs stats for your publications
 enable_publication_badges:
   altmetric: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
@@ -331,8 +324,6 @@ external_links:
   target: _blank
   exclude:
 
-=======
->>>>>>> fd2d957618da019eeb2bfec836f0208d2560b0e5
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
