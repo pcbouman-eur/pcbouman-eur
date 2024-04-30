@@ -7,7 +7,7 @@ subtitle: about me
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
+  more_info: >
     <p>Associate Professor <br />
     Office ET-10 <br />
     Econometric Institute<br />
@@ -30,7 +30,7 @@ memberships:
     href: https://www.informs.org/         
 
 news: false  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
