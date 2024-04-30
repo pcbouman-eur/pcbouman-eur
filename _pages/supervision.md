@@ -17,6 +17,8 @@ This is a list of students who *completed* their Master Thesis under my supervis
 
 ### Operations Research and Quantitative Logistics 
 
+* David Stapel (2023) - [Automating the parameter tuning of a stowage planner](https://thesis.eur.nl/pub/70468) (*internship at Konecranes*)
+* Tim Tjhay (2023) - [Using Machine Learning predictions in Operations Research techniques to solve the Nurse Rostering Problem](https://thesis.eur.nl/pub/70253) (*internship at ORTEC*)
 * Ninette den Breejen (2023) - A Comparison of Local Search Algorithms for the Flexible Job Shop Scheduling Problem for the Production of Greenhouses (*internship at KUBO*)
 * Marieke van Doorn (2022) - [Integrating the Parcel and Mail Network](https://thesis.eur.nl/pub/65813) (*internship at PostNL*)
 * Veerle Willemse (2022) - [Optimizing the Battery Swap Strategy for e-Cargo Bicycles](https://thesis.eur.nl/pub/65795) (*internship at Districon and Cargoroo*)
@@ -41,6 +43,11 @@ This is a list of students who *completed* their Master Thesis under my supervis
 
 ### Business Analytics and Quantitative Marketing
 
+* Philip Verdonk (2024) - Assessing Task-Specific Performance Gains from Parameter-Efficient Fine-Tuning of Autoregressive Large Language Models (*internship at Freeday*)
+* Thomas Bersee (2024) - Evaluating the forecast performance of homogeneous, heterogeneous, and shrinkage estimators applied to automotive after-sales demand (*internship at Gibbs Analytics Consulting and Louwman Group*)
+* Daniel Nierop (2024) - Promoting a Pawn to a Goal
+* Rick van Dosselaar (2023) - A Set-to-Set Forecasting Framework for Predicting Local, Non-Isometric Transformations within 3D Objects using Neural Networks (*internship at Pipple*)
+* Chaya Jaggan (2023) - Multi-touch Attribution Modelling Applied to the Telecommunications Industry (*internship at KPN*)
 * Dave Warsito (2023) - Evaluating a Semantics-Driven Ingredient Substitution Heuristic for Vegan Diets using a Food Knowledge Graph (*internship at KPMG*)
 * Quirine Schaub (2023) - Using Prod2vec with or without metadata to nudge retailers towards healthier assortment decisions (*internship at Albert Heijn*)
 * Job Scheltema (2023) - [Wildfire risk modelling in Spain using context-sensitive Deep Learning models](https://thesis.eur.nl/pub/65753) (*internship at KPMG*)
